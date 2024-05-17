@@ -1,36 +1,50 @@
-# ASP.NET-Project-For-ECommerce
-A source code repository for an ASP.NET Core API supporting ecommerce tasks like product management, order processing, user authentication, and payment integration. Follows RESTful principles for easy client application integration. Documentation included.
-### Key Components and Technologies Used:
+# ASP.NET Project for E-Commerce
 
-- **RESTful APIs:**  
-  Leveraged RESTful principles throughout the project to ensure clear communication and interoperability with client applications. This approach facilitates seamless integration and scalability.
+![Demo of the Project](https://github.com/3ZMTOO/ASP.NET-Project-For-ECommerce/raw/master/demo.gif)
 
-- **Onion Architecture:**  
-  Implemented the Onion Architecture pattern to promote maintainability, scalability, and separation of concerns. This architectural style organizes the application into layers, each with distinct responsibilities, facilitating easier testing and future modifications.
+This repository hosts the source code for an advanced ASP.NET Core API tailored for e-commerce applications. The API offers comprehensive functionalities including product management, order processing, user authentication, and payment integration. It adheres to RESTful principles to ensure seamless integration with various client applications. Detailed documentation is provided to assist developers in leveraging the full capabilities of the API.
 
-- **Unit of Work and Specification Design Pattern:**  
-  Utilized the Unit of Work pattern to manage database transactions effectively, promoting consistency and atomicity. Additionally, employed the Specification Design Pattern to encapsulate query logic, enabling dynamic and reusable querying of data.
+## Key Components and Technologies
 
-- **Pagination:**  
-  Integrated pagination functionality to enhance the user experience by efficiently managing large datasets. This feature improves performance and navigability, particularly in scenarios involving extensive data retrieval.
+- **RESTful APIs**  
+  The API is designed following RESTful principles, ensuring efficient communication and interoperability with client applications. This design promotes scalability and ease of integration.
 
-- **Redis Caching:**  
-  Implemented Redis caching to optimize data retrieval operations and enhance application performance. By storing frequently accessed data in-memory, Redis reduces database load and latency, resulting in faster response times and improved scalability.
+- **Onion Architecture**  
+  The project is structured using the Onion Architecture pattern, which enhances maintainability, scalability, and separation of concerns. This architectural style divides the application into distinct layers, each with its own responsibility, facilitating easier testing and modification.
 
-- **Identity and JWT for Authorization:**  
-  Incorporated ASP.NET Identity for user management and authentication, ensuring secure access to resources. Additionally, utilized JSON Web Tokens (JWT) for stateless authentication, enabling secure and efficient authorization across distributed systems.
+- **Unit of Work and Specification Design Pattern**  
+  - **Unit of Work:** Ensures efficient management of database transactions, promoting consistency and atomicity.
+  - **Specification Pattern:** Encapsulates business logic into reusable and composable specifications, enabling flexible and maintainable querying capabilities.
 
-- **Stripe for Payment Processing:**  
-  Integrated the Stripe payment gateway to facilitate secure and seamless payment transactions. By leveraging Stripe's robust APIs and features, the application ensures reliable payment processing while maintaining PCI compliance and data security.
+- **Pagination**  
+  Implemented pagination to efficiently handle large datasets, improving both performance and user experience during data retrieval operations.
 
-- **Controllers:**  
-  The project comprises five main controllers:
-    - **Basket Controller:** Manages shopping baskets and cart-related operations.
-    - **Account Controller:** Handles user account management functionalities.
-    - **Order Controller:** Facilitates order processing and management.
-    - **Payment Controller:** Orchestrates payment processing and transaction handling.
-    - **Products Controller:** Provides endpoints for managing product-related operations.
- 
-![Demo of the Project](https://github.com/3ZMTOO/ASP.NET-Project-For-ECommerce/demo.gif)
+- **Redis Caching**  
+  Utilized Redis for caching to enhance application performance. By storing frequently accessed data in-memory, Redis reduces database load and latency, resulting in faster response times and improved scalability.
 
+- **Identity and JWT for Authorization**  
+  - **ASP.NET Identity:** Provides robust user authentication and management.
+  - **JSON Web Tokens (JWT):** Implements stateless authentication, allowing secure and efficient authorization across distributed systems.
 
+- **Stripe for Payment Processing**  
+  Integrated Stripe's payment gateway to handle secure transactions seamlessly. Stripe ensures reliable payment processing while maintaining high standards of PCI compliance and data security.
+
+- **Controllers**  
+  The API consists of five primary controllers, each responsible for specific operations:
+  - **Basket Controller:** Manages shopping baskets and cart-related functionalities.
+  - **Account Controller:** Handles user account management and authentication.
+  - **Order Controller:** Manages order processing and lifecycle.
+  - **Payment Controller:** Facilitates payment processing and transaction management.
+  - **Products Controller:** Oversees product-related operations and management.
+
+## Getting Started
+
+To get started with this project, please refer to the [documentation](./docs) for setup instructions, API usage guidelines, and detailed feature descriptions.
+
+## Contributing
+
+We welcome contributions! Please review our [contribution guidelines](./CONTRIBUTING.md) before submitting pull requests.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
