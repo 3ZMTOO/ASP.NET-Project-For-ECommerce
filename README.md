@@ -1,6 +1,6 @@
 # ASP.NET Project for E-Commerce
 
-![Demo of the Project](https://github.com/3ZMTOO/ASP.NET-Project-For-ECommerce/raw/master/demo.gif)
+![Demo of the Project](demo.gif)
 
 This repository hosts the source code for an advanced ASP.NET Core API tailored for e-commerce applications. The API offers comprehensive functionalities including product management, order processing, user authentication, and payment integration. It adheres to RESTful principles to ensure seamless integration with various client applications. Detailed documentation is provided to assist developers in leveraging the full capabilities of the API.
 
